@@ -10,6 +10,102 @@ namespace atividade_do_laços
     {
         static void Main(string[] args)
         {
+            //for (int cont = 0 ; cont < 3; cont++)
+            int menu;
+
+            Console.ForegroundColor = ConsoleColor.Yellow;
+            Console.WriteLine("1- numeros pares sequencia\n2- fibonacci \n3- numeros impares sequencia");
+            Console.WriteLine("");
+            Console.ForegroundColor = ConsoleColor.Gray;
+            Console.Write("digite o numero de 1 a 3: ");
+            menu = int.Parse(Console.ReadLine());
+            
+
+            if (menu == 1)
+            {
+                Console.Write("digite o 1 numero: ");
+                
+                int valor1
+                    = int.Parse(Console.ReadLine());
+
+                Console.Write("digite o 2 numero: ");
+                
+                int valor2
+                    = int.Parse(Console.ReadLine());
+
+                for (int cont = valor1; cont <= valor2; cont++)
+                {
+                    
+                    if (cont % 2 == 0)
+                    {
+                        Console.WriteLine("");
+                        Console.WriteLine("seus numeros sao" + cont);
+                    }
+                }
+
+
+            }
+            else if (menu == 2)
+            {
+                
+                Console.WriteLine("bem vindo a sequencia de fibonacci digite sua posiçao: ");
+                int numero = int.Parse(Console.ReadLine());
+
+                if (numero <= 0)
+                {
+                    Console.WriteLine("digite uma opçao valida");
+                    Console.WriteLine("");
+                }
+
+                Console.WriteLine("");
+                Console.WriteLine("sua sequencia de fibonacci" + numero + ": ");
+
+                if (numero >= 0) 
+                        Console.Write("0");
+
+                if (numero >= 1) 
+                        Console.Write("0");
+
+                double a = 0, b = 1;
+
+                for (double final =  3; final <= numero + 1; final++)
+                {
+                    double c = a + b;
+                    Console.WriteLine(c + "\n");
+
+                    a = b ; b = c;
+                }
+
+            }
+            else if (menu == 3)
+            {
+                Console.Write("digite o 1 numero: ");
+
+                int valor1
+                    = int.Parse(Console.ReadLine());
+
+                Console.Write("digite o 2 numero: ");
+
+                int valor2
+                    = int.Parse(Console.ReadLine());
+
+                for (int cont = valor1; cont <= valor2; cont++)
+                {
+
+                    if (cont % 2 != 0)
+                    {
+                        Console.WriteLine("");
+                        Console.WriteLine("seus numeros sao" + cont);
+                    }
+                }
+
+
+            }
+
+
+
+
+            Console.ReadKey();
         }
     }
 }

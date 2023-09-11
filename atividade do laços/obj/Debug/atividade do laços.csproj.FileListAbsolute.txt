@@ -1,0 +1,7 @@
+C:\Users\guilherme.lmaia\source\repos\atividades\atividade de lços\atividade do laços\atividade do laços\bin\Debug\atividade do laços.exe.config
+C:\Users\guilherme.lmaia\source\repos\atividades\atividade de lços\atividade do laços\atividade do laços\bin\Debug\atividade do laços.exe
+C:\Users\guilherme.lmaia\source\repos\atividades\atividade de lços\atividade do laços\atividade do laços\bin\Debug\atividade do laços.pdb
+C:\Users\guilherme.lmaia\source\repos\atividades\atividade de lços\atividade do laços\atividade do laços\obj\Debug\atividade do laços.csproj.AssemblyReference.cache
+C:\Users\guilherme.lmaia\source\repos\atividades\atividade de lços\atividade do laços\atividade do laços\obj\Debug\atividade do laços.csproj.CoreCompileInputs.cache
+C:\Users\guilherme.lmaia\source\repos\atividades\atividade de lços\atividade do laços\atividade do laços\obj\Debug\atividade do laços.exe
+C:\Users\guilherme.lmaia\source\repos\atividades\atividade de lços\atividade do laços\atividade do laços\obj\Debug\atividade do laços.pdb
