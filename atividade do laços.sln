@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34009.444
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "atividade do laços", "atividade do laços\atividade do laços.csproj", "{83AE99C1-6BFB-4071-ACE1-4852298AA9BE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{83AE99C1-6BFB-4071-ACE1-4852298AA9BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{83AE99C1-6BFB-4071-ACE1-4852298AA9BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{83AE99C1-6BFB-4071-ACE1-4852298AA9BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{83AE99C1-6BFB-4071-ACE1-4852298AA9BE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {358CD89F-6BD3-4BFE-87E4-AD288DE6A7E3}
+	EndGlobalSection
+EndGlobal
