@@ -48,7 +48,7 @@ namespace atividade_do_laços
             else if (menu == 2)
             {
                 
-                Console.WriteLine("bem vindo a sequencia de fibonacci digite sua posiçao: ");
+                Console.Write("bem vindo a sequencia de fibonacci digite sua posiçao: ");
                 int numero = int.Parse(Console.ReadLine());
 
                 if (numero <= 0)
@@ -58,20 +58,22 @@ namespace atividade_do_laços
                 }
 
                 Console.WriteLine("");
-                Console.WriteLine("sua sequencia de fibonacci" + numero + ": ");
+                Console.Write("sua sequencia de fibonacci " + numero + " é: ");
 
                 if (numero >= 0) 
-                        Console.Write("0");
+                        Console.Write("\n0");
+                Console.WriteLine("");
 
                 if (numero >= 1) 
-                        Console.Write("0");
+                        Console.Write("\n1");
+                Console.WriteLine("");
 
                 double a = 0, b = 1;
 
                 for (double final =  3; final <= numero + 1; final++)
                 {
                     double c = a + b;
-                    Console.WriteLine(c + "\n");
+                    Console.WriteLine("\n" + c);
 
                     a = b ; b = c;
                 }
